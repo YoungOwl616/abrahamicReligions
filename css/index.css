@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*styles for title div*/
+#title-div {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 130px;
+    padding: 30px 0px 50px 0px;
+    background-color: black;
+    color: gold;
+}
+
+#title-img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/*styles for content div and content*/
+#content-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.flex-items {
+    text-align: center;
+    text-decoration: none;
+}
+
+.content-img {
+    height: 230px;
+    margin: 0px 0px 20px 0px;
+}
+
+#judaism-link {
+    text-decoration: none;
+    color: blue;
+}
+
+#christianity-link {
+    text-decoration: none;
+    color: red;
+}
+
+#islam-link {
+    text-decoration: none;
+    color: green;
+}
+
+/* footer styles */
+#footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+}
